@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <group>
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:iconTint="@color/black"
+            android:title="My Profile" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:iconTint="@color/black"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:iconTint="@color/black"
+            android:title="Logout" />
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/abt_us"
+            android:icon="@drawable/ic_about"
+            android:iconTint="@color/black"
+            android:title="About Us" />
+
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/ic_feedback"
+            android:iconTint="@color/black"
+            android:title="Feedback" />
+    </group>
+
+</menu>

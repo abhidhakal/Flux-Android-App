@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.FeedbackActivity">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="vertical"
+        android:gravity="start">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flux"
+            android:layout_marginHorizontal="56dp"
+            android:layout_marginVertical="9.5dp"
+            style="@style/textView_style"
+            android:textStyle="bold"
+            android:textSize="24sp">
+        </TextView>
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            style="@style/view_style"
+            android:background="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Feedback"
+            android:layout_marginHorizontal="16dp"
+            android:textColor="@color/primary"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginVertical="16dp"/>
+
+        <EditText
+            android:id="@+id/feedbackTitle"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:textColorHint="#9E9E9E"
+            android:inputType="text"
+            android:textSize="16sp"
+            android:padding="16dp"
+            style="@style/textView_style"
+            android:layout_marginVertical="8dp"
+            android:background="@drawable/fragment_textbar"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/feedbackEmail"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textColorHint="#9E9E9E"
+            android:inputType="textEmailAddress"
+            android:textSize="16sp"
+            android:padding="16dp"
+            style="@style/textView_style"
+            android:layout_marginVertical="8dp"
+            android:background="@drawable/fragment_textbar"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/feedbackDescription"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:inputType="textMultiLine"
+            android:textColorHint="#9E9E9E"
+            android:textSize="16sp"
+            android:padding="16dp"
+            style="@style/textView_style"
+            android:layout_marginVertical="8dp"
+            android:background="@drawable/fragment_textbar"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/submitFeedbackBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/fragment_buttons"
+            android:text="Submit Feedback"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_marginVertical="16dp"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.MyApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_variant</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+
+        <item name="android:statusBarColor">@color/on_secondary</item>
+        
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <style name="textView_style">
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="view_style">
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="pwView_style">
+        <item name="passwordToggleTint">@color/textColor</item>
+    </style>
+
+    <style name="navbar_style">
+        <item name="itemIconTint">@color/black</item>
+    </style>
+
+    <style name="expense_style">
+        <item name="android:backgroundTint">@color/secondary</item>
+    </style>
+
+    <style name="menu_tint">
+        <item name="tint">@color/black</item>
+    </style>
+
+    <style name="animation_style">
+        <item name="lottie_rawRes">@raw/animate_dark</item>
+    </style>
+
+    <style name="drawable_tint">
+        <item name="drawableTint">@color/black</item>
+    </style>
+
+</resources>
